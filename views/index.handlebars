@@ -1,0 +1,31 @@
+<section class='py-2'>
+<div class='row'>
+<div class='col-md-6 text-center'>
+<h1 class='display-3 mt-3 pt-5'>
+  Web developement
+</h1>
+<p class='lead'>Learn web developement from front to back</p>
+<form action='/charge' method='POST'>
+<script
+src='https://checkout.stripe.com/checkout.js'
+class='stripe-button'
+data-key='pk_test_51HD4TXGZmvdMGd5u0B04fLH1vXDAp4a3sIqX1WeVSs59ZLgTICkw7ORLF17xzk3qkEdZ3Jm2s2xRU7CgMCMdQ0rb00wE0zKTga'
+data-amount='2500'
+data-name='Web development ebook'
+data-description='Ebook written by lordlinda'
+data-image='/img/finance.jpg'
+data-locale='auto'
+>
+</script>
+<script>
+document.getElementsByClassName('stripe-button-el')[0].style.display='none'
+</script>
+<button type='submit' class='btn btn-outline-dark text-white'>Pay</button>
+
+</form>
+</div>
+<div class='col-md-6'>
+<img src='/img/finance.jpg'class="img-fluid" />
+</div>
+</div>
+</section>
